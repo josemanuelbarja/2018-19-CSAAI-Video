@@ -2,13 +2,24 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Video 01</title>
-    <script src="video-01.js"></script>
+    <title>Practica 4</title>
+    <script src="mytv_prog.js"></script>
+    <link rel="stylesheet" href="mytv_style.css">
   </head>
   <body onload="main();">
-    <p>Prueba de video</p>
-    <video id="video1" autoplay loop muted>
-      <source src="video-src-01-robot.mp4"/>
-    </video>
+    <div class="mydoc">
+      <div class="mycams">
+        <p id="parrafo">VIDEOS</p>
+        <video id="video1" autoplay loop muted controls></video>
+        <video id="video2" autoplay loop muted controls></video>
+        <video id="video3" autoplay loop muted controls></video>
+        <br>
+      </div>
+      <div class="buttons">
+        <button type="button" id="play1">VIDEO 1</button>
+        <button type="button" id="play2">VIDEO 2</button>
+        <button type="button" id="play3">VIDEO 3</button>
+      </div>
+    </div>
   </body>
 </html>
