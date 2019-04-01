@@ -12,17 +12,7 @@ function main()
   ver1 = document.getElementById('play1')
   ver2 = document.getElementById('play2')
   ver3 = document.getElementById('play3')
-  //-- Establecer el tamaño de videos
-  video1.width = 400;
-  video1.height= 200;
-
-  video2.width = 400;
-  video2.height= 200;
-
-  video3.width = 400;
-  video3.height= 200;
-
-
+  
   //-- Detectar pasada por encima
   parrafo.onmouseover = () => {
     console.log("Mouse over!!")

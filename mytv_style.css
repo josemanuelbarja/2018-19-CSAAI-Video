@@ -13,3 +13,14 @@ body {
 .buttons{
   border: solid 1px; margin: 10px; padding: 10px;
 }
+#video1{
+  width: 300px; height: 200px;
+}
+
+#video2{
+  width: 300px; height: 200px;
+}
+
+#video3{
+  width: 300px; height: 200px;
+}
