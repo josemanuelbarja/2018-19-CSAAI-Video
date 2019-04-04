@@ -2,23 +2,28 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Practica 4</title>
+    <title>TvProducer</title>
     <script src="mytv_prog.js"></script>
     <link rel="stylesheet" href="mytv_style.css">
   </head>
   <body onload="main();">
     <div class="mydoc">
       <div class="mycams">
-        <p id="parrafo">VIDEOS</p>
-        <video id="video1" autoplay loop muted controls></video>
-        <video id="video2" autoplay loop muted controls></video>
-        <video id="video3" autoplay loop muted controls></video>
+        <p id="parrafo">CAMERAS</p>
+        <video id="video1" autoplay loop controls></video>
+        <video id="video2" autoplay loop controls></video>
+        <video id="video3" autoplay loop controls></video>
         <br>
       </div>
       <div class="buttons">
-        <button type="button" id="play1">VIDEO 1</button>
-        <button type="button" id="play2">VIDEO 2</button>
-        <button type="button" id="play3">VIDEO 3</button>
+        <button type="button" id="play1">CAM 1</button>
+        <button type="button" id="play2">CAM 2</button>
+        <button type="button" id="play3">CAM 3</button>
+      </div>
+      <div class="maincamera">
+        <p id="pmaincam">ON AIR<span id="dot">·</span></p>
+        <br>
+        <video id="maincam" autoplay loop></video>
       </div>
     </div>
   </body>

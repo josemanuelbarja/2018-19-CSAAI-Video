@@ -1,26 +1,61 @@
 html{
-  color:#000; background:#FFF;
+  color:#000; background:#FFF; align-items: flex-end;
 }
 body {
-  font-family: Georgia; color: #232;
+  font-family: Georgia; color: #232; width: 85em; text-align: center; display: flex;
 }
 .mydoc{
-  border: solid 1px; margin: 10px; padding: 10px;
+  border: none; margin: 10px; padding: 10px;
 }
 .mycams{
-  border: solid 1px; margin: 10px; padding: 10px;
+  border: none; margin: 10px; padding: 10px;
 }
 .buttons{
-  border: solid 1px; margin: 10px; padding: 10px;
-}
-#video1{
-  width: 300px; height: 200px;
+  border: none; margin: 10px; padding: 10px; text-align: center;
 }
 
-#video2{
-  width: 300px; height: 200px;
+#parrafo{
+  font-family: monospace; font-size: 25px; border: none 2px; width: 5em;
+  text-align: center; padding: 10px;
+
 }
 
-#video3{
-  width: 300px; height: 200px;
+#video1,#video2,#video3{
+  width: 355px; height: 200px; margin: 10px;
+  -webkit-box-shadow: 10px 7px 48px 6px rgba(0,0,0,0.79);
+  -moz-box-shadow: 10px 7px 48px 6px rgba(0,0,0,0.79);
+  box-shadow: 10px 7px 48px 6px rgba(0,0,0,0.79);
+}
+
+#play1,#play2,#play3{
+  font-family: monospace;
+}
+
+#play1{
+  border: solid 1px; margin-right: 7em; font-size: 15px;  width: 8em;
+}
+
+#play2{
+  border: solid 1px; margin-right: 10em; margin-left: 10em;
+  font-size: 15px; width: 8em;
+}
+
+#play3{
+  border: solid 1px; margin-left: 7em; font-size: 15px;  width: 8em;
+}
+
+#maincam{
+  width: 655px; height: 500px;
+  -webkit-box-shadow: 10px 7px 48px 6px rgba(0,0,0,0.79);
+  -moz-box-shadow: 10px 7px 48px 6px rgba(0,0,0,0.79);
+  box-shadow: 10px 7px 48px 6px rgba(0,0,0,0.79);
+}
+
+#pmaincam{
+  font-family: monospace; font-size: 25px; white-space: nowrap; height: 60px;
+  text-align: center; padding-top:10px;
+}
+
+#dot{
+  font-size: 40px; margin: 0px; text-align: center; color: red;
 }
